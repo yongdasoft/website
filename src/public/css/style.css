@@ -1086,12 +1086,16 @@ body.login-page {
     position: fixed;
     -webkit-box-shadow: 0px 0px 6px 0px rgba(96, 100, 109, 0.4);
     box-shadow: 0px 0px 6px 0px rgba(96, 100, 109, 0.4); }
+
+/*mrlong 2017-8-30*/
   .landing-page .navbar.affix {
     z-index: 4000;
-    background-color: rgba(255, 255, 255, 0.95) !important;
+    background-color: #222 /*rgba(255, 255, 255, 0.95)*/ !important;
     height: 60px;
     opacity: 1;
-    margin-top: 0px; }
+    margin-top: 0px; 
+}
+/*end*/
   .landing-page .navbar-affix.affix li a {
     height: 60px;
     line-height: 60px; }
