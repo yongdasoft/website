@@ -19,7 +19,7 @@ module.exports = app;
 // 版本号
 // 2. 2017-7-10 
 //
-app.locals.appver=1;
+app.locals.appver=2;
 
 
 app.response.loadview=function(filename,params,ismoble){
