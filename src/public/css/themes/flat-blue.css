@@ -330,6 +330,11 @@
     background-color: #FA2A00; }
   .flat-blue .color-white {
     color: #FFF; }
+  /*mrlong 2017-10-8*/
+  .flat-blue .color-green{
+    color: #2f962d;
+  }
+  /*end*/
   .flat-blue .pagination > li > a {
     color: #353d47; }
   .flat-blue .pagination .active > a, .flat-blue .pagination .active > a:focus, .flat-blue .pagination .active > a:hover, .flat-blue .pagination .active span, .flat-blue .pagination .active > span:focus, .flat-blue .pagination .active > span:hover {
