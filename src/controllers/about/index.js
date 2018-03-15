@@ -9,11 +9,11 @@ var Db = require('../../common/db.js');
 var async = require("async");
 var crypto = require("crypto");
 
+
 var get_index = function(req,res,next){
-  res.loadview('index.html');
+    res.loadview('index.html');
 };
 
 
 router.get('/',get_index);
 module.exports = router;
-  

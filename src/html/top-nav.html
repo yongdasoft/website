@@ -1,6 +1,6 @@
 
 <div class="flat-blue landing-page">
-<nav class="navbar navbar-inverse navbar-fixed-top  navbar-affix " role="navigation" data-spy="affix" data-offset-top="60">
+<nav class="navbar  navbar-fixed-top " role="navigation" data-spy="affix" data-offset-top="60">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -18,7 +18,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">首页</a></li>
                 <li class="<%=locals.nav=='product' ? 'active' : '' %>"><a href="/product">产品</a></li>
-                <li><a href="#about">团队</a></li>
+                <li class="<%=locals.nav=='about' ? 'active' : '' %>"><a href="/about">团队</a></li>
                 <li><a href="#contact">服务联系</a></li>
                 <li><a target="_blank" href="http://42.121.6.85">老网站</a></li>
             </ul>

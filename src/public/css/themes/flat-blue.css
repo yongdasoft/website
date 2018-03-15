@@ -14,7 +14,8 @@
     .flat-blue .navbar > .container-fluid, .flat-blue .navbar.navbar-default > .container-fluid {
       background-color: #FFF; }
     .flat-blue .navbar .navbar-header .navbar-brand, .flat-blue .navbar.navbar-default .navbar-header .navbar-brand {
-      color: #F9F9F9; }
+      /*color: #F9F9F9; */ /*mrlong*/
+    }
     .flat-blue .navbar .navbar-header .navbar-expand-toggle, .flat-blue .navbar.navbar-default .navbar-header .navbar-expand-toggle {
       color: #353d47; }
     .flat-blue .navbar .navbar-header .navbar-right-expand-toggle, .flat-blue .navbar.navbar-default .navbar-header .navbar-right-expand-toggle {
@@ -334,6 +335,9 @@
   .flat-blue .color-green{
     color: #2f962d;
   }
+  .flat-blue .color-yongda{
+    color: #2180e0
+  }
   /*end*/
   .flat-blue .pagination > li > a {
     color: #353d47; }
@@ -640,16 +644,22 @@
 
 /*mrlong*/
 .flat-blue.landing-page .navbar {
-  background-color: #222; /* transparent*/;
+  /*background-color: #222; */ /* transparent*/
+  background-color: #f9f9f9 ;
   box-shadow: none; 
 }
 
   .flat-blue.landing-page .navbar .navbar-nav > .active > a {
-    background-color: transparent; }
+    /*background-color: transparent; */
+    background-color: #2180e0; /*mrlong*/
+    color:#fff;
+  }
   .flat-blue.landing-page .navbar .navbar-nav > li {
     border-left: 0px solid #F9F9F9; }
     .flat-blue.landing-page .navbar .navbar-nav > li > a {
-      color: #FFF; }
+      /*color: #FFF; */
+      color: #333;
+    }
   .flat-blue.landing-page .navbar .navbar-collapse {
     border: 0; }
 
@@ -678,11 +688,14 @@
 */
 /*end*/
 .flat-blue.landing-page .navbar.affix .navbar-toggle .icon-bar {
-  background-color: #353d47; }
+  background-color: #353d47; 
+}
 
 .flat-blue.landing-page .app-header .app-btn {
   background-color: transparent;
   border: 2px solid #FFF; }
 
 .flat-blue.landing-page .app-content-a {
-  background-color: #EAEAEA; }
+  /*background-color: #EAEAEA; */
+  background-color: #fff; /**mrlong*/
+}
