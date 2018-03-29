@@ -6,3 +6,7 @@ body{
 .jumbotron {
  background-color:#fff; 
 }
+
+.color-yonda{
+  color: rgb(0,103,172);
+}

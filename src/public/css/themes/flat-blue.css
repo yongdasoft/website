@@ -336,7 +336,7 @@
     color: #2f962d;
   }
   .flat-blue .color-yongda{
-    color: #2180e0
+    color: rgb(0,103,172)
   }
   /*end*/
   .flat-blue .pagination > li > a {
@@ -651,7 +651,7 @@
 
   .flat-blue.landing-page .navbar .navbar-nav > .active > a {
     /*background-color: transparent; */
-    background-color: #2180e0; /*mrlong*/
+    background-color: rgb(0,103,172); /*mrlong*/
     color:#fff;
   }
   .flat-blue.landing-page .navbar .navbar-nav > li {
