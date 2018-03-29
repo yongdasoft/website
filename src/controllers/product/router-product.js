@@ -17,6 +17,7 @@ router.use(function(req,res,next){
 
 
 router.use('/ppms',require('./ppms.js'));
+router.use('/budget3',require('./budget3.js'));
 router.use('/',require('./index.js'));
 
 
